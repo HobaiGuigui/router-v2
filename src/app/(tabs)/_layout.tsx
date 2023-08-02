@@ -1,7 +1,7 @@
 import { Tabs } from "expo-router";
 import { MaterialIcons } from "@expo/vector-icons";
 
-export default function TabRouteLaout() {
+export default function TabRouteLayout() {
   return (
     
     <Tabs screenOptions={{headerShown: false}}>
@@ -9,7 +9,7 @@ export default function TabRouteLaout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Inicio",
+          title: "Início",
           tabBarIcon: ({size, color}) => <MaterialIcons name="home" size={size} color={color} />,
         }}
       />
@@ -25,8 +25,8 @@ export default function TabRouteLaout() {
 <Tabs.Screen
         name="settings"
         options={{
-          title: "Configuraçãoes",
-          tabBarIcon: ({size, color}) => <MaterialIcons  name="settings-applications" size={size} color={"#acfaca"} />,
+          title: "Configurações",
+          tabBarIcon: ({size, color}) => <MaterialIcons  name="settings" size={size} color={color} />,
         }}
       />
     </Tabs>
