@@ -1,7 +1,7 @@
 import { View, Text, Button } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
-import Buttom  from '../../components/Buttom'
+// import Buttom  from '../../components/Buttom'
 
 const profile = () => {
   return (
